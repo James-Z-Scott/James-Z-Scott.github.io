@@ -23,15 +23,29 @@ h1{
 .list_header1{
     color: skyblue;
     font-size: 40px;
-    text-align: left;
+    display: inline;
+    padding: 150px;
+    
+    
 }
-.list_header2{
-    color: skyblue;
-    font-size: 40px;
-    text-align: center;
-}
-.list_header3{
-    color: skyblue;
-    font-size: 40px;
+
+
+.skills{
     text-align: right;
+    font-family:'Times New Roman';
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+.col1{
+    column-count: 3;
+    padding-top: 50px;
+}
+
+.achievements{
+    text-align: center;
+    font-family:'Times New Roman';
+    font-size: 20px;
+    list-style-position: inside;
+
 }
